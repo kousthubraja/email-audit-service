@@ -1,0 +1,85 @@
+Return-Path: <alice@example.com>
+Delivered-To: bob@example.com
+Received: from mail.example.com (mail.example.com [192.0.2.10])
+    by mx.example.net with ESMTP id ABC123DEF456
+    for <bob@example.com>; Fri, 13 Jun 2025 09:00:10 +0400
+From: Alice <alice@example.com>
+To: Bob <bob@example.com>
+Subject: Project Update
+Date: Fri, 13 Jun 2025 09:00:00 +0400
+Message-ID: <msg1@example.com>
+MIME-Version: 1.0
+Content-Type: multipart/digest; boundary="BOUNDARY123"
+
+--BOUNDARY123
+Content-Type: message/rfc822
+
+From: Alice <alice@example.com>
+To: Bob <bob@example.com>
+Subject: Project Update
+Date: Fri, 13 Jun 2025 09:00:00 +0400
+Message-ID: <msg1@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Bob,
+
+Here is the update on the project:
+- Task A: Completed
+- Task B: In progress, expected to finish by next week
+- Task C: Pending client feedback
+
+Please let me know if you have any questions.
+
+Regards,
+Alice
+
+--BOUNDARY123
+Content-Type: message/rfc822
+
+From: Bob <bob@example.com>
+To: Alice <alice@example.com>
+Subject: Re: Project Update
+In-Reply-To: <msg1@example.com>
+References: <msg1@example.com>
+Date: Sat, 14 Jun 2025 15:30:00 +0400
+Message-ID: <msg2@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Alice,
+
+Thanks for the update. Could you please clarify the timeline for Task B?
+Also, have we heard back from the client on Task C?
+
+I'll be in a meeting tomorrow morning but will respond by afternoon.
+And fuck you. 
+
+Best,
+Bob
+
+--BOUNDARY123
+Content-Type: message/rfc822
+
+From: Alice <alice@example.com>
+To: Bob <bob@example.com>
+Subject: Re: Project Update
+In-Reply-To: <msg2@example.com>
+References: <msg1@example.com> <msg2@example.com>
+Date: Sun, 15 Jun 2025 11:45:00 +0400
+Message-ID: <msg3@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Bob,
+
+What's this? Why is these delayed? Sounds stupid. 
+I followed up with the client on Task C this morning; awaiting their response and will update you.
+
+Thanks,
+Alice
+
+--BOUNDARY123--
