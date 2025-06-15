@@ -7,6 +7,7 @@ A Django-based email auditing service for tracking and analyzing email communica
 - Django 5.2.3 with modern Python 3.13
 - PostgreSQL database support
 - **Celery with Redis** for asynchronous task processing
+- **Google Gemini AI integration** for intelligent email content analysis and auditing
 - Docker containerization with Gunicorn
 - Environment-based configuration
 - Production-ready setup
@@ -182,6 +183,10 @@ POSTGRES_PASSWORD=your-secure-password
 # Celery settings
 CELERY_BROKER_URL=redis://redis:6379/0
 CELERY_RESULT_BACKEND=redis://redis:6379/0
+
+# Gemini AI settings
+GEMINI_API_KEY=your-gemini-api-key-here
+GEMINI_MODEL=gemini-1.5-flash
 ```
 
 ## Development
@@ -263,6 +268,7 @@ docker-compose logs -f celery
 - **Backend**: Django 5.2.3, Python 3.13
 - **Database**: PostgreSQL 15
 - **Task Queue**: Celery 5.3+ with Redis 7
+- **LLM**: Gemini 2.5 flash
 - **WSGI Server**: Gunicorn
 - **Package Manager**: uv
 - **Containerization**: Docker & Docker Compose
